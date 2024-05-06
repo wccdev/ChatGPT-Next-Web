@@ -106,7 +106,7 @@ export const useAccessStore = createPersistStore(
           // Set default model from env request
           let defaultModel = res.defaultModel ?? "";
           DEFAULT_CONFIG.modelConfig.model =
-            defaultModel !== "" ? defaultModel : "gpt-4-turbo";
+            defaultModel !== "" ? defaultModel : "gpt-4";
           return res;
         })
         .then((res: DangerConfig) => {
