@@ -159,7 +159,7 @@ export function SideBar(props: { className?: string }) {
           AI Chat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          Powered by Wochacha Team.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <GalaxycoreIcon />
